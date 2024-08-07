@@ -1,5 +1,5 @@
 LOCAL_PATH := $(call my-dir)
-WFD_DISABLE_PLATFORM_LIST := neo
+WFD_DISABLE_PLATFORM_LIST := neo neo61
 
 #Disable WFD for selected 32-bit targets
 ifeq ($(call is-board-platform,bengal),true)
